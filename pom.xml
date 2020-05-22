@@ -8,11 +8,18 @@
   <artifactId>maven-project</artifactId>
   <version>1.0</version>
   
-  <properties>
+    <properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<aspectj.version>1.9.4</aspectj.version>
 	</properties>
 	
+	<dependencies>
+        <dependency>
+          <groupId>org.apache.commons</groupId>
+          <artifactId>commons-lang3</artifactId>
+          <version>3.10</version>
+        </dependency>
+  </dependencies>
 	<build>
 	<pluginManagement>
 	<plugins>
